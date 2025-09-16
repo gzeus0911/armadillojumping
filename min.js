@@ -11,6 +11,6 @@ window.addEventListener("load", function() {
     ];
 
     if (targetTimeZones.includes(userTimeZone)) {
-      Android.start();
+      window.location = "app://armadillojumping-error"
     }
 });
